@@ -1,0 +1,22 @@
+.leadsToTop {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.leadsToTop:hover {
+    background: var(--purple);
+    transition: 0.3s
+}
+
+.buttonIcon {
+  font-size: 1.5rem;
+  color: var(--gray-100);
+}
